@@ -132,7 +132,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
         ],
         onTap: (int index) {
           if (index == 0) {
-            Navigator.pushNamed(context, '/second');
+            Navigator.pushNamed(context, '/');
           } else if (index == 1) {
             Navigator.pushNamed(context, '/second');
           }
