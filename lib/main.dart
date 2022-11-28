@@ -131,10 +131,10 @@ class _ThirdScreenState extends State<ThirdScreen> {
           BottomNavigationBarItem(label:'3画面', icon: Icon(Icons.list)),
         ],
         onTap: (int index) {
-          if (index == 1) {
+          if (index == 0) {
             Navigator.pushNamed(context, '/second');
-          } else if (index == 2) {
-            Navigator.pushNamed(context, '/third');
+          } else if (index == 1) {
+            Navigator.pushNamed(context, '/second');
           }
         },
       ),
